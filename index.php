@@ -10,7 +10,7 @@ if($con === false )
 }
 else
 {
-	echo "Connection success to db";
+	echo "Connection successful to db";
 }
 $query="SELECT * FROM user where username='$username' and password='$password'";
 $res=mysqli_query($con,$query);
